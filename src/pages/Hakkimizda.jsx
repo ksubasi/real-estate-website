@@ -34,8 +34,8 @@ export default function Hakkimizda() {
 				</div>
 			</div>
 			<div className="bg-gray-200/50 pt-30 shadow-2xl">
-				<div className="mx-auto max-w-6xl px-6 pb-30">
-					<div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+				<div className="mx-auto px-20 pb-30">
+					<div className="grid grid-cols-2 gap-20">
 						<div className="rounded-xl bg-white p-6 shadow-xl">
 							<div className="flex items-center gap-4 text-blue-600">
 								<svg
@@ -103,8 +103,8 @@ export default function Hakkimizda() {
 				<p className="text-center text-gray-400 text-md mt-4">
 					Her projemizde bizi yönlendiren temel değerlerimiz
 				</p>
-				<div className="flex gap-9 mt-7">
-					<div className="group w-full rounded-xl bg-white p-6 shadow-md hover:shadow-4xl">
+				<div className="flex gap-9 mt-7 [&>div]:hover:shadow-2xl [&>div]:transition-shadow [&>div]:duration-200">
+					<div className="group w-full rounded-xl bg-white p-6 shadow-xl">
 						<div className="mb-3 flex items-center justify-center  p-3 text-blue-700">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -210,97 +210,127 @@ export default function Hakkimizda() {
 				<h2 className="text-center text-white text-3xl font-semibold">
 					Kilometre Taşlarımız
 				</h2>
-				<div className="flex flex-col gap-6 max-w-2xl mx-auto px-6 mt-6 pb-20 text-xl">
-					<div className="flex items-center gap-4 ">
+				<div className="flex flex-col max-w-2xl mx-auto px-6 mt-6 pb-20 text-xl w-fit">
+					<div className="flex gap-4">
 						<span className="w-16 font-semibold text-orange-400">1994</span>
-
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 -960 960 960"
-							className="h-8 w-8 text-orange-400"
-							fill="currentColor">
-							<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-						</svg>
-
-						<span className="flex-1 text-gray-400/70">
+						<div className="flex flex-col items-center">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 -960 960 960"
+								className="h-8 w-8 text-orange-400"
+								fill="currentColor">
+								<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+							</svg>
+							<div
+								className="w-0.5 flex-1 bg-orange-400 "
+								style={{ minHeight: "2rem" }}
+							/>
+						</div>
+						<span className="flex-1 text-gray-400/90">
 							Şirketimizin kuruluşu
 						</span>
 					</div>
 
-					<div className="flex items-center gap-4">
+					<div className="flex gap-4">
 						<span className="w-16 font-semibold text-orange-400">2000</span>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 -960 960 960"
-							className="h-8 w-8 text-orange-400"
-							fill="currentColor">
-							<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-						</svg>
-						<span className="flex-1 text-gray-400/70">
+						<div className="flex flex-col items-center">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 -960 960 960"
+								className="h-8 w-8 text-orange-400"
+								fill="currentColor">
+								<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+							</svg>
+							<div
+								className="w-0.5 flex-1 bg-orange-400 "
+								style={{ minHeight: "2rem" }}
+							/>
+						</div>
+						<span className="flex-1 text-gray-400/90">
 							İlk büyük konut projemiz: 500 daire
 						</span>
 					</div>
 
-					<div className="flex items-center gap-4">
+					<div className="flex gap-4">
 						<span className="w-16 font-semibold text-orange-400">2008</span>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 -960 960 960"
-							className="h-8 w-8 text-orange-400"
-							fill="currentColor">
-							<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-						</svg>
-						<span className="flex-1 text-gray-400/70">
+						<div className="flex flex-col items-center">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 -960 960 960"
+								className="h-8 w-8 text-orange-400"
+								fill="currentColor">
+								<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+							</svg>
+							<div
+								className="w-0.5 flex-1 bg-orange-400 "
+								style={{ minHeight: "2rem" }}
+							/>
+						</div>
+						<span className="flex-1 text-gray-400/90">
 							ISO 9001 kalite belgesi alındı
 						</span>
 					</div>
-					<div className="flex items-center gap-4">
+					<div className="flex gap-4">
 						<span className="w-16 font-semibold text-orange-400">2015</span>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 -960 960 960"
-							className="h-8 w-8 text-orange-400"
-							fill="currentColor">
-							<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-						</svg>
-						<span className="flex-1 text-gray-400/70">
+						<div className="flex flex-col items-center">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 -960 960 960"
+								className="h-8 w-8 text-orange-400"
+								fill="currentColor">
+								<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+							</svg>
+							<div
+								className="w-0.5 flex-1 bg-orange-400 "
+								style={{ minHeight: "2rem" }}
+							/>
+						</div>
+						<span className="flex-1 text-gray-400/90">
 							100. proje tamamlandı
 						</span>
 					</div>
-					<div className="flex items-center gap-4">
+					<div className="flex gap-4">
 						<span className="w-16 font-semibold text-orange-400">2020</span>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 -960 960 960"
-							className="h-8 w-8 text-orange-400"
-							fill="currentColor">
-							<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-						</svg>
-						<span className="flex-1 text-gray-400/70">
+						<div className="flex flex-col items-center">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 -960 960 960"
+								className="h-8 w-8 text-orange-400"
+								fill="currentColor">
+								<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+							</svg>
+							<div
+								className="w-0.5 flex-1 bg-orange-400 "
+								style={{ minHeight: "2rem" }}
+							/>
+						</div>
+						<span className="flex-1 text-gray-400/90">
 							Yeşil bina sertifikası
 						</span>
 					</div>
-					<div className="flex items-center gap-4">
+					<div className="flex gap-4">
 						<span className="w-16 font-semibold text-orange-400">2024</span>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 -960 960 960"
-							className="h-8 w-8 text-orange-400"
-							fill="currentColor">
-							<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
-						</svg>
-						<span className="flex-1 text-gray-400/70">
+						<div className="flex flex-col items-center">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 -960 960 960"
+								className="h-8 w-8 text-orange-400"
+								fill="currentColor">
+								<path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+							</svg>
+						</div>
+						<span className="flex-1 text-gray-400/90">
 							150+ proje ve 5,000+ mutlu aile
 						</span>
 					</div>
 				</div>
 			</div>
 
-			<div className="p-10 grid grid-cols-2 gap-5">
+			<div className="p-10 grid grid-cols-2 gap-10">
 				<div className="rounded-lg overflow-hidden shadow-2xl">
 					<img src="/Building2.jpg" />
 				</div>
-				<div>
+				<div className="self-center">
 					<h2 className="text-black mt-6 font-semibold text-3xl">
 						Uzman Ekibimiz
 					</h2>

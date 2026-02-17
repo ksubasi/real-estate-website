@@ -10,8 +10,8 @@ export default function Iletisim() {
 					bizimle iletişime geçin. Size yardımcı olmaktan mutluluk duyarız.
 				</p>
 			</div>
-			<div className="flex gap-9 mt-10 pb-10">
-				<div className="group w-full rounded-xl bg-white p-6 shadow-md hover:shadow-4xl">
+			<div className="flex gap-9 mt-10 pb-10 px-10 [&>div]:hover:shadow-2xl [&>div]:transition-shadow [&>div]:duration-200">
+				<div className="group w-full rounded-xl bg-white p-6 shadow-xl">
 					<div className="mb-3 flex items-center justify-center  p-3 text-blue-700">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +125,7 @@ export default function Iletisim() {
 										id="name"
 										type="text"
 										placeholder="Ad Soyad"
-										className="border border-gray-300 bg-gray-200 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-gray-400/50"
+										className="border border-gray-300 bg-gray-100 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-gray-400/50"
 									/>
 								</div>
 
@@ -139,7 +139,7 @@ export default function Iletisim() {
 										id="email"
 										type="email"
 										placeholder="E-posta"
-										className="border border-gray-300 bg-gray-200 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-gray-400/50"
+										className="border border-gray-300 bg-gray-100 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-gray-400/50"
 									/>
 								</div>
 
@@ -153,7 +153,7 @@ export default function Iletisim() {
 										id="telefon"
 										type="tel"
 										placeholder="+90 (5xx) xxx xx xx"
-										className="border border-gray-300 bg-gray-200 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-gray-400/50"
+										className="border border-gray-300 bg-gray-100 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-gray-400/50"
 									/>
 								</div>
 
@@ -167,7 +167,7 @@ export default function Iletisim() {
 										id="konu"
 										type="text"
 										placeholder="Mesaj konusu"
-										className="border border-gray-300 bg-gray-200 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-gray-400/50"
+										className="border border-gray-300 bg-gray-100 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-gray-400/50"
 									/>
 								</div>
 							</div>
@@ -182,7 +182,7 @@ export default function Iletisim() {
 									id="mesaj"
 									rows={5}
 									placeholder="Mesajınızı buraya yazın..."
-									className="border border-gray-300 bg-gray-200 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-gray-400/50 resize-none"
+									className="border border-gray-300 bg-gray-100 rounded-md px-4 py-3 outline-none focus:ring-2 focus:ring-gray-400/50 resize-none"
 								/>
 							</div>
 
